@@ -1,0 +1,18 @@
+{% assign intro = site.data.data.intro %}
+{% if intro %}
+<section class="section summary-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-compass fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ intro.title }}
+  </h2>
+
+  <div class="summary">
+    {{ intro.summary | markdownify }}
+  </div><!--//summary-->
+
+</section><!--//section-->
+{% endif %}
