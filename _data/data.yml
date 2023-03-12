@@ -27,7 +27,7 @@ sidebar:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars: meskill
   goodreads: # Number-Username, e.g. 123456-alandoe
-  # pdf: http://www.africau.edu/images/default/sample.pdf
+  pdf: https://drive.google.com/file/d/1FdIh68G0p8LdZYeR37Nnh6e_rULJ0-Se/view?usp=sharing
 
   languages:
     title: Languages
@@ -72,7 +72,6 @@ education:
       university: Vitebsk State University
       time: 2011-2016
       details: |
-        - participated in local and international programming competitions
         - won 1st place in team competition and 3rd place in individual competition at the 10th International Olympiad
         in Computer Science among students and cadets of educational institutions of higher professional education,
         held in the city of Smolensk on April 18-19, 2013
@@ -92,23 +91,15 @@ experiences:
         - Participated in the framework roadmap planning and in discussions of the ideas and new features
         - Managed to improve developer experience by migrating to swc transpiler by rewriting the used babel plugins to Rust language that helped to improve application build speed more than 2 times
         - Developed internal tool to simplify deployment process to Kubernetes for internal projects. The tool was used in up to 30% of all deploys in local Kubernetes cluster
-        - Conducted technical interviews and assessment reviews
     - role: Frontend Developer
-      time: 2017 - 2020
+      time: 2016 - 2020
       company: Andersen Lab, Belarus
       details: |
-        - Used Javascript, Typescript, Nodejs, React.js
         - Was part of the core team that led the way for the entire frontend department of a commercial bank (200+ frontend developers)
         - Provided support for legacy code
         - Developed core parts of web application logic reused by other frontend teams
         - Made a number of improvements that optimised the speed of loading web pages
         - Implemented unit tests to cover key functionality
-    - role: Junior Frontend Developer
-      time: 2016 - 2017
-      company: Andersen Lab, Belarus
-      details: |
-        - Used Javascript, React.js, NodeJs, ExtJs
-        - Developed landing pages, dashboards and online applications using Javascript, ExtJs and React.js
         - Built a library of reusable components
         - Produced multi-browser compatible websites
 
