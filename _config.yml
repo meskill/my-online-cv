@@ -8,7 +8,7 @@ url: 'https://meskill.github.io/my-online-cv/'
 # disabling since we are using a custom domain
 baseurl: '/my-online-cv'
 
-description: A beautiful Jekyll theme for creating resume
+description: Web developer with 7+ years of experience
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
