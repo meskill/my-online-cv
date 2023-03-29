@@ -83,49 +83,45 @@ experiences:
       time: 2020 - Present
       company: Andersen Lab, Belarus
       details: |
-        - Developed a meta React framework that was widely adopted by the frontend department of a commercial bank and was used in more than 30 internal projects
-        - Implemented the core features of the framework, including: SSR-rendering, routing, logging, state-management, data-fetching, microfrontends, custom CLI
-        - Managed to improve the stability of the framework by covering most of the functionality with unit and e2e testings
-        - Worked on the related documentation of the framework for different levels of developers
-        - Provided support in usage of the framework for other frontend teams
-        - Participated in the framework roadmap planning and in discussions of the ideas and new features
-        - Managed to improve developer experience by migrating to swc transpiler by rewriting the used babel plugins to Rust language that helped to improve application build speed more than 2 times
-        - Developed internal tool to simplify deployment process to Kubernetes for internal projects. The tool was used in up to 30% of all deploys in local Kubernetes cluster
+        - Created and implemented an internal tool to simplify the deployment process to Kubernetes for internal projects, resulting in a 30% adoption rate for approximately 10,000 deployments in local Kubernetes clusters.
+        - Developed a meta React framework that was widely adopted by the frontend department of a commercial bank, used in over 140 internal projects.
+        - Architected and implemented core features of the framework, including SSR-rendering, routing, logging, state-management, data-fetching, microfrontends, and a custom CLI.
+        - Increased the stability of the framework and deployment tool by covering most of the functionality with unit and e2e tests.
+        - Wrote and maintained documentation for the framework and deployment tool, suitable to different levels of developers.
+        - Provided technical support to over 300 developers in other teams for the use of the framework and deployment tool.
+        - Boosted developer productivity by over 2x by migrating to the swc transpiler and rewriting Babel plugins to Rust language.
     - role: Frontend Developer
       time: 2016 - 2020
       company: Andersen Lab, Belarus
       details: |
-        - Was part of the core team that led the way for the entire frontend department of a commercial bank (200+ frontend developers)
-        - Provided support for legacy code
-        - Developed core parts of web application logic reused by other frontend teams
-        - Made a number of improvements that optimised the speed of loading web pages
-        - Implemented unit tests to cover key functionality
-        - Built a library of reusable components
-        - Produced multi-browser compatible websites
+        - Was part of the core team consisting of 3-5 members that led the way for the entire frontend department of a commercial bank (200+ frontend developers).
+        - Developed core parts of web application logic reused by other frontend teams.
+        - Made a number of improvements that optimised the speed of loading web pages up to 50%.
+        - Implemented unit tests to cover key functionality.
+        - Built a library of reusable components.
+        - Produced multi-browser compatible websites.
 
 projects:
   title: Personal projects
   # intro: >
   #   You can list your side projects in this
-  #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
     - title: Mystic Light Browser Cinema
       link: 'https://chrome.google.com/webstore/detail/mystic-light-browser-cine/gdpnjcddcajojjckihckodnehnjghbcp?hl=en&authuser=0'
       description: |
-        Extension for Chromium-based browsers that allows to disable lighting effects of Mystic Light compatible RGB peripherals and components when watching fullscreen videos in the browser
+        Extension for Chromium-based browsers that allows to disable lighting effects of Mystic Light compatible RGB peripherals and components when watching fullscreen videos in the browser.
       details: |
-        - Developed native part of the application in Rust
-        - Created [public Rust library](https://crates.io/crates/mystic_light_sdk) that wraps low-level SDK and provides high-level Rust interface
-        - Implemented a browser extension using Typescript and Plasmo framework
+        - Developed native part of the application in Rust.
+        - Created [public Rust library](https://crates.io/crates/mystic_light_sdk) that wraps low-level SDK and provides high-level Rust interface.
+        - Implemented a browser extension using Typescript and Plasmo framework.
 
     - title: SteelSeries Browser Cinema
       link: 'https://chrome.google.com/webstore/detail/steelseries-browser-cinem/mndmnpnegjbnfakegcedmfccfiapdnhc?hl=en&authuser=0'
       description: |
-        Extension for Chromium-based browsers that allows to disable lighting effects of SteelSeries compatible RGB peripherals and components when watching fullscreen videos in the browser
+        Extension for Chromium-based browsers that allows to disable lighting effects of SteelSeries compatible RGB peripherals and components when watching fullscreen videos in the browser.
       details: |
-        - Implemented communication with external desktop application
-        - Developed a browser extension using Typescript and core Chrome features
+        - Implemented communication with external desktop application.
+        - Developed a browser extension using Typescript and core Chrome features.
 
 oss:
   title: OSS Contributions
@@ -136,16 +132,16 @@ oss:
   contributions:
     - title: tramvai
       link: 'https://tramvai.dev'
-      tagline: modular framework for universal React applications
+      tagline: modular framework for universal React applications.
     - title: swc
       link: 'https://github.com/swc-project/swc/issues?q=author%3Ameskill'
-      tagline: fast javascript/typescript transpiler that written in Rust
+      tagline: fast javascript/typescript transpiler that written in Rust.
     - title: webpack
       link: 'https://github.com/webpack/webpack/issues?q=author%3Ameskill'
-      tagline: javascript bundler
+      tagline: javascript bundler.
     - title: babel
       link: 'https://github.com/babel/babel/issues?q=author%3Ameskill'
-      tagline: javascript/typescript transpiler for next generation code
+      tagline: javascript/typescript transpiler for next generation code.
 
 # publications:
 #     title: Publications
