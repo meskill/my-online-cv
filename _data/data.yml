@@ -127,8 +127,7 @@ oss:
   title: OSS Contributions
   # intro: >
   #   You can list your open source software contributions in this
-  #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  #   section.
   contributions:
     - title: tramvai
       link: 'https://tramvai.dev'
