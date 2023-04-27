@@ -13,8 +13,8 @@ sidebar:
 
   # Sidebar links
   email: kir.mialeshka@gmail.com
-  phone: +375 29 218 97 88
-  timezone: UTC/GMT +3
+  phone: +48 452 051 157
+  timezone: CET, UTC/GMT +2
   citizenship:
   website: #do not add http://
   linkedin: meskill
@@ -53,10 +53,10 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Web developer with 7+ years of experience in developing web applications using Javascript, Typescript and React.js.
+    Software developer with 7+ years of experience in developing web applications using Javascript, Typescript and React.js.
     Created and maintained a custom react framework.
     Eager to learn new technologies and enhance programming skills.
-    Actively working on personal projects using Rust programming language that I aim to use in my future career.
+    Actively working on personal and open-source projects using Rust programming language that I aim to use in my future career.
 
 intro:
   title: Job expectations
@@ -79,24 +79,24 @@ education:
 experiences:
   title: Work Experience
   info:
-    - role: Senior Frontend Developer
+    - role: Senior Software Developer
       time: 2020 - Present
       company: Andersen Lab, Belarus
       details: |
         - Created and implemented an internal tool to simplify the deployment process to Kubernetes for internal projects, resulting in a 30% adoption rate for approximately 10,000 deployments in local Kubernetes clusters.
         - Developed a meta React framework that was widely adopted by the frontend department of a commercial bank, used in over 140 internal projects.
         - Architected and implemented core features of the framework, including SSR-rendering, routing, logging, state-management, data-fetching, microfrontends, and a custom CLI.
+        - Boosted project build time by over 2x by migrating to the swc transpiler and rewriting Babel plugins to Rust language.
+        - Migrated server routing from express.js to fastify, resulting in an overall server performance improvement of 10%.
+        - Implemented various caching strategies for SSR rendering, which improved RPS up to 100x in some cases.
         - Increased the stability of the framework and deployment tool by covering most of the functionality with unit and e2e tests.
-        - Wrote and maintained documentation for the framework and deployment tool, suitable to different levels of developers.
         - Provided technical support to over 300 developers in other teams for the use of the framework and deployment tool.
-        - Boosted developer productivity by over 2x by migrating to the swc transpiler and rewriting Babel plugins to Rust language.
     - role: Frontend Developer
       time: 2016 - 2020
       company: Andersen Lab, Belarus
       details: |
         - Was part of the core team consisting of 3-5 members that led the way for the entire frontend department of a commercial bank (200+ frontend developers).
         - Developed core parts of web application logic reused by other frontend teams.
-        - Made a number of improvements that optimised the speed of loading web pages up to 50%.
         - Implemented unit tests to cover key functionality.
         - Built a library of reusable components.
         - Produced multi-browser compatible websites.
@@ -111,8 +111,9 @@ projects:
       description: |
         Extension for Chromium-based browsers that allows to disable lighting effects of Mystic Light compatible RGB peripherals and components when watching fullscreen videos in the browser.
       details: |
-        - Developed native part of the application in Rust.
         - Created [public Rust library](https://crates.io/crates/mystic_light_sdk) that wraps low-level SDK and provides high-level Rust interface.
+        - Developed native windows service in Rust.
+        - Developed a web-server with GraphQL support using axum framework
         - Implemented a browser extension using Typescript and Plasmo framework.
 
     - title: SteelSeries Browser Cinema
@@ -141,6 +142,9 @@ oss:
     - title: babel
       link: 'https://github.com/babel/babel/issues?q=author%3Ameskill'
       tagline: javascript/typescript transpiler for next generation code.
+    - title: wasmer
+      link: 'https://github.com/wasmerio/wasmer/issues?q=author%3Ameskill'
+      tagline: WebAssembly Runtime
 
 # publications:
 #     title: Publications
@@ -177,7 +181,10 @@ skills:
     - name: React.js
       level: 88%
 
+    - name: Node.js
+      level: 78%
+
     - name: Rust
-      level: 57%
+      level: 62%
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
