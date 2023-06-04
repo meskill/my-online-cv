@@ -13,7 +13,7 @@ sidebar:
 
   # Sidebar links
   email: kir.mialeshka@gmail.com
-  phone: +48 452 051 157
+  # phone: +48 452 051 157
   timezone: CET, UTC/GMT +2
   citizenship:
   website: #do not add http://
@@ -27,7 +27,7 @@ sidebar:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars: meskill
   goodreads: # Number-Username, e.g. 123456-alandoe
-  pdf: https://drive.google.com/file/d/1FdIh68G0p8LdZYeR37Nnh6e_rULJ0-Se/view?usp=sharing
+  pdf: https://drive.google.com/file/d/1l-BHgY3oItpPfEKjxr144d8CZPnnseD5/view?usp=sharing
 
   languages:
     title: Languages
@@ -53,17 +53,17 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Software developer with 7+ years of experience in developing web applications using Javascript, Typescript and React.js.
-    Created and maintained a custom react framework.
-    Eager to learn new technologies and enhance programming skills.
-    Actively working on personal and open-source projects using Rust programming language that I aim to use in my future career.
+    Software developer with a degree in Applied Mathematics and over seven years of experience developing
+    web applications using JavaScript, TypeScript, and React.js.
+    I've created and maintained a custom React framework.
+    I'm eager to learn new technologies and improve my programming skills.
+    Currently, I'm actively working on personal and open-source projects using the Rust programming language,
+    and I'm excited to apply these skills in my next role
 
 intro:
   title: Job expectations
   summary: |
-    Mainly looking for a remote role but will consider relocation option depending on longevity of project.
-
-    My current location is Poland, Białystok.
+    I'm looking for a remote opportunity and my current location is Poland, Białystok.
 
 education:
   title: Education
@@ -97,7 +97,6 @@ experiences:
       details: |
         - Was part of the core team consisting of 3-5 members that led the way for the entire frontend department of a commercial bank (200+ frontend developers).
         - Developed core parts of web application logic reused by other frontend teams.
-        - Implemented unit tests to cover key functionality.
         - Built a library of reusable components.
         - Produced multi-browser compatible websites.
 
