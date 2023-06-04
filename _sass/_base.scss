@@ -321,3 +321,9 @@ p {
     color: $heart;
   }
 }
+
+.fa-inverse,
+.fa-inverse:after,
+.fa-inverse:before {
+  color: $theme-color;
+}
