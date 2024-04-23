@@ -8,13 +8,13 @@ sidebar:
 
   # Profile information
   name: Kiryl Mialeshka
-  tagline: Software Developer
+  tagline: Rust Software Developer
   avatar: #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: kir.mialeshka@gmail.com
   # phone: +48 452 051 157
-  timezone: CET, UTC/GMT +2
+  timezone: CET, UTC/GMT +1
   citizenship:
   website: #do not add http://
   linkedin: meskill
@@ -53,8 +53,8 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Software developer with a degree in Applied Mathematics and over seven years of experience developing
-    web applications using JavaScript, TypeScript, and React.js.
+    Software developer with a degree in Applied Mathematics and over eight years of experience developing
+    applications using JavaScript, TypeScript, and React.js.
     I've created and maintained a custom React framework.
     I'm eager to learn new technologies and improve my programming skills.
     Currently, I'm actively working on personal and open-source projects using the Rust programming language,
@@ -79,17 +79,29 @@ education:
 experiences:
   title: Work Experience
   info:
+    - role: Rust Founding Engineer
+      time: 2023 - Present
+      company: Tailcall Inc.
+      details: |
+        [Tailcall](https://tailcall.run) is a high-performance open-source API orchestrator
+
+        - Maintained and extended the core of API Gateway
+        - Added support for GraphQL in core as available datasource
+        - Implemented GRPC datasource support
+        - Integrated Authentication protocol and embedded it into GraphQL DSL
+        - Increased observability of gateway by integrating OpenTelemetry into core
+        - Constantly worked on improving performance of the project
+        - Worked with the open-source community providing help and guidance
+
     - role: Senior Software Developer
-      time: 2020 - Present
+      time: 2020 - 2023
       company: Andersen Lab, Belarus
       details: |
         - Created and implemented an internal tool to simplify the deployment process to Kubernetes for internal projects, resulting in a 30% adoption rate for approximately 10,000 deployments in local Kubernetes clusters.
         - Developed a meta React framework that was widely adopted by the frontend department of a commercial bank, used in over 140 internal projects.
         - Architected and implemented core features of the framework, including SSR-rendering, routing, logging, state-management, data-fetching, microfrontends, and a custom CLI.
         - Boosted project build time by over 2x by migrating to the swc transpiler and rewriting Babel plugins to Rust language.
-        - Migrated server routing from express.js to fastify, resulting in an overall server performance improvement of 10%.
         - Implemented various caching strategies for SSR rendering, which improved RPS up to 100x in some cases.
-        - Increased the stability of the framework and deployment tool by covering most of the functionality with unit and e2e tests.
         - Provided technical support to over 300 developers in other teams for the use of the framework and deployment tool.
     - role: Frontend Developer
       time: 2016 - 2020
@@ -98,7 +110,6 @@ experiences:
         - Was part of the core team consisting of 3-5 members that led the way for the entire frontend department of a commercial bank (200+ frontend developers).
         - Developed core parts of web application logic reused by other frontend teams.
         - Built a library of reusable components.
-        - Produced multi-browser compatible websites.
 
 projects:
   title: Personal projects
@@ -129,6 +140,12 @@ oss:
   #   You can list your open source software contributions in this
   #   section.
   contributions:
+    - title: tailcall
+      link: 'https://github.com/tailcallhq/tailcall/issues?q=author%3Ameskill'
+      tagline: API orchestrator
+    - title: nushell
+      link: 'https://github.com/nushell/nushell/issues?q=author%3Ameskill'
+      tagline: modern shell
     - title: tramvai
       link: 'https://tramvai.dev'
       tagline: modular framework for universal React applications.
@@ -138,12 +155,6 @@ oss:
     - title: webpack
       link: 'https://github.com/webpack/webpack/issues?q=author%3Ameskill'
       tagline: javascript bundler.
-    - title: babel
-      link: 'https://github.com/babel/babel/issues?q=author%3Ameskill'
-      tagline: javascript/typescript transpiler for next generation code.
-    - title: wasmer
-      link: 'https://github.com/wasmerio/wasmer/issues?q=author%3Ameskill'
-      tagline: WebAssembly Runtime
 
 # publications:
 #     title: Publications
@@ -171,19 +182,19 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
+    - name: Rust
+      level: 90%
+
     - name: Javascript
-      level: 95%
+      level: 85%
 
     - name: Typescript
-      level: 95%
+      level: 80%
 
     - name: React.js
-      level: 88%
+      level: 70%
 
     - name: Node.js
       level: 78%
-
-    - name: Rust
-      level: 62%
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
