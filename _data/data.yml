@@ -53,17 +53,12 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Software developer with a degree in Applied Mathematics and over eight years of experience developing
-    applications using JavaScript, TypeScript, and React.js.
-    I've created and maintained a custom React framework.
-    I'm eager to learn new technologies and improve my programming skills.
-    Currently, I'm actively working on personal and open-source projects using the Rust programming language,
-    and I'm excited to apply these skills in my next role
+    With over eight years of software development experience and a strong background in Applied Mathematics, I am a skilled Rust developer focused on building high-performance, scalable applications. My work includes significant contributions to open-source projects.
 
 intro:
   title: Job expectations
   summary: |
-    I'm looking for a remote opportunity and my current location is Poland, Białystok.
+    I am seeking remote software development roles that allow me to utilize my Rust expertise. I aim to join a team that values innovation and offers opportunities for ongoing professional growth.
 
 education:
   title: Education
@@ -85,31 +80,26 @@ experiences:
       details: |
         [Tailcall](https://tailcall.run) is a high-performance open-source API orchestrator
 
-        - Maintained and extended the core of API Gateway
-        - Added support for GraphQL in core as available datasource
-        - Implemented GRPC datasource support
-        - Integrated Authentication protocol and embedded it into GraphQL DSL
-        - Increased observability of gateway by integrating OpenTelemetry into core
-        - Constantly worked on improving performance of the project
-        - Worked with the open-source community providing help and guidance
+        - Maintained and extended the core of API Gateway, integrating advanced data handling capabilities with GraphQL and GRPC support.
+        - Embedded OpenTelemetry into the gateway's core, enhancing system observability and performance monitoring.
+        - Actively engaged with the open-source community, providing guidance and support.
+        - Focused on continuous performance improvements, ensuring robust and scalable gateway operations.
 
     - role: Senior Software Developer
       time: 2020 - 2023
       company: Andersen Lab, Belarus
       details: |
-        - Created and implemented an internal tool to simplify the deployment process to Kubernetes for internal projects, resulting in a 30% adoption rate for approximately 10,000 deployments in local Kubernetes clusters.
-        - Developed a meta React framework that was widely adopted by the frontend department of a commercial bank, used in over 140 internal projects.
-        - Architected and implemented core features of the framework, including SSR-rendering, routing, logging, state-management, data-fetching, microfrontends, and a custom CLI.
-        - Boosted project build time by over 2x by migrating to the swc transpiler and rewriting Babel plugins to Rust language.
-        - Implemented various caching strategies for SSR rendering, which improved RPS up to 100x in some cases.
-        - Provided technical support to over 300 developers in other teams for the use of the framework and deployment tool.
+        - Created and implemented a Kubernetes deployment tool within the company, enhancing deployment efficiency by 30% across 10,000 local deployments.
+        - Developed a meta React framework extensively adopted by the frontend department of a major bank, implemented in over 140 internal projects.
+        - Increased project build efficiency by over 2x through strategic use of the swc transpiler, optimizing code compilation processes.
+        - Implemented effective caching strategies for SSR that improved response rates dramatically, optimizing web performance.
+        - Provided technical guidance and support to over 300 developers, improving departmental capabilities and project success rates.
     - role: Frontend Developer
       time: 2016 - 2020
       company: Andersen Lab, Belarus
       details: |
-        - Was part of the core team consisting of 3-5 members that led the way for the entire frontend department of a commercial bank (200+ frontend developers).
-        - Developed core parts of web application logic reused by other frontend teams.
-        - Built a library of reusable components.
+        - Contributed as a key member of a small core team that led frontend initiatives, supporting over 200 developers at a commercial bank.
+        - Developed essential parts of the application logic and built a library of reusable components, facilitating easier and faster development across teams.
 
 projects:
   title: Personal projects
@@ -119,20 +109,17 @@ projects:
     - title: Mystic Light Browser Cinema
       link: 'https://chrome.google.com/webstore/detail/mystic-light-browser-cine/gdpnjcddcajojjckihckodnehnjghbcp?hl=en&authuser=0'
       description: |
-        Extension for Chromium-based browsers that allows to disable lighting effects of Mystic Light compatible RGB peripherals and components when watching fullscreen videos in the browser.
+        Extension for Chromium-based browsers that allows to disable lighting effects of Mystic Light compatible RGB peripherals automatically.
       details: |
-        - Created [public Rust library](https://crates.io/crates/mystic_light_sdk) that wraps low-level SDK and provides high-level Rust interface.
-        - Developed native windows service in Rust.
-        - Developed a web-server with GraphQL support using axum framework
-        - Implemented a browser extension using Typescript and Plasmo framework.
+        - Developed a Rust library and a native Windows service to manage RGB lighting effects of peripherals.
+        - Created a browser extension with a backend supporting GraphQL
 
     - title: SteelSeries Browser Cinema
       link: 'https://chrome.google.com/webstore/detail/steelseries-browser-cinem/mndmnpnegjbnfakegcedmfccfiapdnhc?hl=en&authuser=0'
       description: |
-        Extension for Chromium-based browsers that allows to disable lighting effects of SteelSeries compatible RGB peripherals and components when watching fullscreen videos in the browser.
+        Extension for Chromium-based browsers that allows to disable lighting effects of SteelSeries compatible RGB peripherals and components automatically.
       details: |
-        - Implemented communication with external desktop application.
-        - Developed a browser extension using Typescript and core Chrome features.
+        - Developed communication capabilities between a browser extension and a desktop application.
 
 oss:
   title: OSS Contributions
